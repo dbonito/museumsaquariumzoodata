@@ -278,7 +278,6 @@ with (tab1):
 
     # Build the map
     map = pdk.Deck(
-        map_style='map = pdk.Deck(
     map_style='https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
         initial_view_state=view_state,
         layers=layer_list,
