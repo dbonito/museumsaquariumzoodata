@@ -124,7 +124,7 @@ def load_data(filepath):
 # Error handling
 # If the CSV is missing we show an error instead of crashing
 try:
-    df = load_data("C:/Users/dboni/OneDrive - Bentley University/CS230/Museum App/museums.csv")
+    df = load_data("museums.csv")
 except FileNotFoundError:
     st.error("Could not find museums.csv.")
     st.stop()
